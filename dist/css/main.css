@@ -168,8 +168,14 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 200px;
+    height: 300px;
+    background: url("../img/Dominicrayphoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }

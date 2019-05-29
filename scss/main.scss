@@ -87,8 +87,14 @@ h3 {
         .bio-image {
             grid-area: bioimage;
             margin: auto;
-            border-radius: 50%;
-            border: $secondary-color 3px solid;
+            width: 200px;
+        height: 300px;
+        background: url('../img/Dominicrayphoto.jpg');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 3px $secondary-color;
         }
     
         .bio {
